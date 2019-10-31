@@ -5,10 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {"": "src/"},
-        "exclude-from-classmap": ["**/Tests/"],
-        "files": [
-            "vendor/symfony/symfony/src/Symfony/Component/Intl/Locale.php"
-        ]
+        "exclude-from-classmap": ["**/Tests/"]
     },
     "repositories": {
         "composer": {
@@ -92,7 +89,7 @@
     "prefer-stable": true,
     "extra": {
         "symfony": {
-            "require": "2.8.*"
+            "require": "3.4.*"
         },
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
