@@ -5,7 +5,11 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {"": "src/"},
-        "exclude-from-classmap": ["**/Tests/"]
+        "exclude-from-classmap": [
+            "**/Tests/",
+            "vendor/symfony/intl/Locale.php",
+            "vendor/symfony/symfony/src/Symfony/Component/Intl/Locale.php"
+        ]
     },
     "repositories": {
         "composer": {
